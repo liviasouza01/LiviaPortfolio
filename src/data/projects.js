@@ -4,6 +4,7 @@ import semicolon from "../assets/images/semicolon.png";
 import scroll from "../assets/images/scroll.jpg";
 import getv from "../assets/images/get-v.jpg";
 import guilherme from '../assets/images/guilherme.jpg'
+import algoritmo from '../assets/images/algoritmo.png'
 
 export const projects = [
   {
@@ -26,7 +27,7 @@ export const projects = [
     title: "Desenvolvimento de algoritmo",
     description: "Desenvolvimento de algoritmo de aprendizagem de máquina",
     image:
-      "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/port.JPG",
-    link: "https://www.v1.teshank.dev/",
+      algoritmo,
+    link: "https://www.github.com/liviasouza01",
   },
 ];

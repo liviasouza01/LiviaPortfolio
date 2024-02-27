@@ -49,9 +49,14 @@ export const About = () => {
       <Page header="Sobre">
         <Text>
           <Paragraph>
-            Migrei de área e decidi me aventurar na computação.
-            <br /> Agora aceitei o desafio de construir sites e trabalhar com 
-            algoritmos de aprendizagem de máquina para inovar nesse campo de pesquisa.
+          <p>Minha jornada profissional começou no mestrado, com a descoberta da Estatística aplicada.
+          A partir daí eu soube que queria aprofundar meu conhecimento nessa área.</p>
+          
+          <p>Estou constantemente buscando desafios que me permitam crescer profissional 
+          e pessoalmente. Sou apaixonada por aprender e estou sempre aberta a 
+          novas oportunidades de desenvolvimento e colaboração.</p>
+
+          <p>Obrigada por visitar o meu portfólio. Estou ansiosa para conectarmos e colaborarmos juntos!</p>
           </Paragraph>
           <Educations>
             <AboutItem
