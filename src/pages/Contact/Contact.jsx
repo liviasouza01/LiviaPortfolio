@@ -28,7 +28,7 @@ export const Contact = () => {
           id="contactform"
         >
           <Input
-            placeholder="Name"
+            placeholder="Nome"
             type="text"
             name="name"
             onChange={(e) => {
@@ -47,7 +47,7 @@ export const Contact = () => {
           />
           <Textarea
             lines={15}
-            placeholder="Hi! How are you?"
+            placeholder="Escreva sua mensagem aqui"
             name="message"
             onChange={(e) => {
               setFormState((prev) => ({ ...prev, message: e.target.value }));
@@ -90,7 +90,7 @@ export const Contact = () => {
             >
               <DownloadButton bg={red} tooltip="Download">
                 <AiOutlineDownload size={40} />
-                <span>Resume</span>
+                <span>CV</span>
               </DownloadButton>
             </a>
           </div>
@@ -104,7 +104,7 @@ export const Contact = () => {
               document.forms["contact"].submit();
             }}
           >
-            Submit
+            Enviar
           </Button>
         </div>
       </ContactWrapper>

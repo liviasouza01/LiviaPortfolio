@@ -36,7 +36,7 @@ export const Experience = () => {
     });
   }, [width]);
   return (
-    <Page header="Experiência">
+    <Page header="Experience">
       <StyledExperienceLayout>
         {experiences.map((exp, index) => (
           <ExperienceItem key={index} data={exp} />

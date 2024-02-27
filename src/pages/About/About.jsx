@@ -49,7 +49,7 @@ export const About = () => {
       <Page header="Sobre">
         <Text>
           <Paragraph>
-            Migrei de área recentemente e decidi me aventurar na computação.
+            Migrei de área e decidi me aventurar na computação.
             <br /> Agora aceitei o desafio de construir sites e trabalhar com 
             algoritmos de aprendizagem de máquina para inovar nesse campo de pesquisa.
           </Paragraph>
@@ -58,24 +58,24 @@ export const About = () => {
               color={blue}
               active
               data={{
-                title: "D.Y. Patil college of engineering, Pune",
-                p: "Bachelors of Computer Engineering (2019-2023)",
+                title: "Universidade Federal de Pernambuco",
+                p: "Doutorado em Ciência de Computação",
                 image: dyp,
               }}
             />
             <AboutItem
               color={green}
               data={{
-                title: "M.P. Deo D. Science College, Nagpur",
-                p: "High School (2017-2019)",
+                title: "Universidade de Pernambuco",
+                p: "Mestrado em Gestão Sustentável (2017-2019)",
                 image: highschool,
               }}
             />
             <AboutItem
               color={yellow}
               data={{
-                title: "School of Scholars, Nagpur",
-                p: "Secondary Education (2007-2017)",
+                title: "UniFBV - Wyden",
+                p: "Bacharelado em Engenharia de Software (2007-2017)",
                 image: sos,
               }}
             />

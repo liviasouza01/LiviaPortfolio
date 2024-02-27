@@ -1,8 +1,7 @@
-import { Canvas } from "@react-three/fiber";
 import React, { useContext, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { NavbarContext } from "../../context";
-import Dog from "./Dog";
+import livia from '../../assets/images/livia.png'
 import {
   AnimatedSpan,
   DogContainer,
@@ -51,9 +50,8 @@ export const Home = () => {
         </Position>
       </TextContainer>
       <DogContainer>
-        <Canvas camera={{ position: [0, 2, 5] }}>
-          <Dog />
-        </Canvas>
+        <img src={livia} alt="Dog" />
+
       </DogContainer>
     </HomeWrapper>
   );

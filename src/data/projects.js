@@ -3,6 +3,7 @@ import sendfrom from "../assets/images/sendform.jpg";
 import semicolon from "../assets/images/semicolon.png";
 import scroll from "../assets/images/scroll.jpg";
 import getv from "../assets/images/get-v.jpg";
+import guilherme from '../assets/images/guilherme.jpg'
 
 export const projects = [
   {
@@ -15,7 +16,7 @@ export const projects = [
   {
     title: "Dr. Guilherme Braz",
     image:
-      "https://raw.githubusercontent.com/teshank2137/portfolio/v1/src/assets/images/fanmerch.png",
+      guilherme,
     github: "https://github.com/teshank2137/fanMerch",
     link: "https://drguilhermebraz.vercel.app",
     description:
