@@ -63,9 +63,9 @@ export const Navbar = ({ children }) => {
             <NavbarItem
               className="navbar-item"
               onClick={handelDotMovement}
-              id="projects"
+              id="projetos"
             >
-              Projects
+              Projetos
             </NavbarItem>
           </li>
           <li>
@@ -74,7 +74,7 @@ export const Navbar = ({ children }) => {
               onClick={handelDotMovement}
               id="experience"
             >
-              Experiences
+              Experiência
             </NavbarItem>
           </li>
           <li className="home_navbar-item">
@@ -93,9 +93,9 @@ export const Navbar = ({ children }) => {
             <NavbarItem
               className="navbar-item"
               onClick={handelDotMovement}
-              id="about"
+              id="sobre"
             >
-              About
+              Sobre mim
             </NavbarItem>
           </li>
           <li>
@@ -104,7 +104,7 @@ export const Navbar = ({ children }) => {
               onClick={handelDotMovement}
               id="contact"
             >
-              Contact
+              Contato
             </NavbarItem>
           </li>
         </ul>

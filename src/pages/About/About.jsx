@@ -46,15 +46,12 @@ export const About = () => {
   }, []);
   return (
     <div ref={ref}>
-      <Page header="About">
+      <Page header="Sobre">
         <Text>
           <Paragraph>
-            I'm a passionate programmer, who is always looking for new
-            challenges to improve myself, also a team player, who is always
-            ready to learn new things and help others.
-            <br />I was born and raised in Nagpur, India. I love to play guitar
-            and ukulele and in my free time I like to read books, watch movies
-            and play video games.
+            Migrei de área recentemente e decidi me aventurar na computação.
+            <br /> Agora aceitei o desafio de construir sites e trabalhar com 
+            algoritmos de aprendizagem de máquina para inovar nesse campo de pesquisa.
           </Paragraph>
           <Educations>
             <AboutItem
