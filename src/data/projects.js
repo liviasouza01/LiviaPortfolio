@@ -33,7 +33,7 @@ export const projects = [
   },
 
   {
-    title: "Desenvolvimento de algoritmo",
+    title: "Machine Learning",
     description: "Desenvolvimento de algoritmo de aprendizagem de máquina",
     image:
       algoritmo,
