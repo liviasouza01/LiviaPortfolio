@@ -49,14 +49,14 @@ export const About = () => {
       <Page header="Sobre">
         <Text>
           <Paragraph>
-          <p>Minha jornada profissional começou no mestrado, com a descoberta da Estatística aplicada.
+          <p>Minha jornada profissional na tecnologia começou no mestrado, com a descoberta da Estatística aplicada.
           A partir daí eu soube que queria aprofundar meu conhecimento nessa área.</p>
           
           <p>Estou constantemente buscando desafios que me permitam crescer profissional 
           e pessoalmente. Sou apaixonada por aprender e estou sempre aberta a 
           novas oportunidades de desenvolvimento e colaboração.</p>
 
-          <p>Obrigada por visitar o meu portfólio. Estou ansiosa para conectarmos e colaborarmos juntos!</p>
+          <p>Obrigada por visitar o meu portfólio!</p>
           </Paragraph>
           <Educations>
             <AboutItem

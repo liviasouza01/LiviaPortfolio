@@ -1,28 +1,37 @@
-import stonks from "../assets/images/stonks.png";
-import sendfrom from "../assets/images/sendform.jpg";
-import semicolon from "../assets/images/semicolon.png";
-import scroll from "../assets/images/scroll.jpg";
 import getv from "../assets/images/get-v.jpg";
 import guilherme from '../assets/images/guilherme.jpg'
 import algoritmo from '../assets/images/algoritmo.png'
+import instaimg from '../assets/images/instaproject.png'
 
 export const projects = [
   {
-    title: "Mahyrah Alves",
+    title: "React js",
     image: getv,
+    github: "https://github.com/liviasouza01/Portfolio-MahyrahAlves-React",
     link: "https://mahyrahalves.vercel.app",
     description:
       "Portfolio profissional",
   },
   {
-    title: "Dr. Guilherme Braz",
+    title: "React js",
     image:
       guilherme,
-    github: "https://github.com/teshank2137/fanMerch",
+    github: "https://github.com/liviasouza01/ClinicProjectReact",
     link: "https://drguilhermebraz.vercel.app",
     description:
       "Website profissional",
   },
+
+  {
+    title: "Django",
+    image:
+      instaimg,
+    github: "https://github.com/liviasouza01/InstaDjango",
+    link: "https://drguilhermebraz.vercel.app",
+    description:
+      "Selection process",
+  },
+
   {
     title: "Desenvolvimento de algoritmo",
     description: "Desenvolvimento de algoritmo de aprendizagem de máquina",
